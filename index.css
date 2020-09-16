@@ -1,0 +1,260 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("./FONTS/Montserrat-Regular.ttf") format("truetype");
+
+    font-weight: normal;
+
+    font-style: normal;
+    }
+
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.product-box {
+    height: 400px;
+    width: 360px;
+    background-color: #EEEEEE;
+    border-radius: 20px;
+    float: right;
+    margin-right: 100px;
+    position: relative;
+    top: 15px;
+    right:-10px ;
+}
+
+.product-1 img {
+    height: 120px;
+    width: 110px;
+    margin: 10px 15px;
+    border-radius: 10px;
+    position: relative;
+
+    
+}
+
+.product-2 img {
+    height: 120px;
+    width: 110px;
+    margin: 20px 15px;
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+    
+}
+
+
+.product-1 {
+    height: 100px;
+    width: 90px;
+}
+
+.product-1 .product-name {
+    font-weight: bold;
+    position: relative;
+    height: 20px;
+    width: 160px;
+    top: -130px;
+    left: 140px;
+}
+
+.product-2 .product-name {
+    font-weight: bold;
+    position: relative;
+    height: 20px;
+    width: 160px;
+    top: -105px;
+    left: 140px;
+}
+
+.product-1 .product-price {
+    font-weight: bold;
+    color: #F2994A;
+    height: 20px;
+    width: 160px;
+    margin-top: 2px;
+    position: relative;
+    top:-120px ;
+    left:140px ;
+}
+
+.product-2 .product-price {
+    font-weight: bold;
+    color: #F2994A;
+    height: 20px;
+    width: 160px;
+    margin-top: 2px;
+    position: relative;
+    top: -100px;
+    left: 140px;
+}
+
+span {
+    font-size: 12px;
+    color: rgb(66, 59, 59);
+    font-weight: lighter;
+    text-decoration:line-through ;
+}
+
+.product-1 .unit-choser {
+    height: 38px;
+    width: 130px;
+    border-radius: 6px;
+    border: 1px solid grey;
+    position: relative;
+    top: -100px;
+    left: 140px;
+}
+
+.product-2 .unit-choser {
+    height: 38px;
+    width: 130px;
+    border-radius: 6px;
+    border: 1px solid grey;
+    position: relative;
+    top: -75px;
+    left: 140px;
+}
+
+.unit-choser p {
+    font-size: 12px;
+    position: relative;
+    top: -20px;
+    left: 60px;
+}
+
+button {
+    height: 25px;
+    width: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #E0E0E0;
+    border-radius: 5px;
+    border: none;
+    margin: 2px;
+    
+}
+
+#decrease1 {
+    position: relative;
+    top: 3px;
+    left: 10px;
+    text-align: center;
+}
+
+#increase1 {
+    position: relative;
+    top: -45px;
+    left: 100px;
+    text-align: center;
+}
+
+#decrease2 {
+    position: relative;
+    top: 3px;
+    left: 10px;
+    text-align: center;
+}
+
+#increase2 {
+    position: relative;
+    top: -45px;
+    left: 100px;
+    text-align: center;
+}
+
+.fee {
+    text-decoration: overline;
+    
+    margin: 5px;
+    height: 20px;
+    width: 300px;
+    background-color: hotpink;
+}
+
+#fee1 {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    right: -100px;
+}
+
+#container {
+    width: 420px;
+    position: relative;
+    top: 25px;
+    left: 190px;
+}
+
+h3 {
+    margin: 10px 0px;
+}
+
+label {
+    font-size: 12px;
+    margin: 15px 0px;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin: 15px 0px;
+    height: 30px;
+    width: 400px;
+}
+
+#country {
+    position: relative;
+    top: 10px;
+}
+
+select {
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin: 25px 0px;
+    height: 30px;
+    width: 120px;
+}
+
+.post-code {
+    position: relative;
+    top: -89px;
+    left: 130px;
+}
+
+#inp-postcode {
+     width: 230px;
+}
+
+#chkbox-cont {
+    height: 40px;
+    width: 400px;
+    position: relative;
+    top: -100px;
+}
+#checkbox {
+    width: 15px;
+    height: 15px;
+}
+
+#continue {
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    border: none;
+    background-color: #F2994A;
+    color: whitesmoke;
+    position: relative;
+    top: -100px;
+    left: 320px;
+}

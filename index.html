@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Checkout</h1>
+
+    <div class="product-box">
+        <div class = "product-1">
+            <img src="./FONTS/photo1.png" alt="Vintage-Backbag">
+            <p class="product-name">Vintage Backbag</p>
+            <p class="product-price">$54.99 <span>$94.99</span></p>
+            <div class="unit-choser">
+                <button id="decrease1">-</button>
+                <p>1</p>
+                <button id="increase1">+</button>
+            </div>
+        </div>
+        
+        <div class="product-2">
+            <img src="./FONTS/photo2.png" alt="Levi-Shoes">
+            <p class="product-name">Levi Shoes</p>
+            <p class="product-price">$74.99 <span>$124.99</span></p>
+            <div class="unit-choser">
+                <button id="decrease2">-</button>
+                <p>1</p>
+                <button id="increase2">+</button>
+            </div>
+        </div>
+
+        <p class="fee">Shipping<span id="fee1">$19</span></p>
+        <p class="fee">Total           $148.98</p>
+    </div>
+<form action="result.html" name="myform" method="" >
+    <div id="container">
+
+    <div class="info-box">
+        <h3>Contact information</h3>
+
+        <label for="email" >Email</label>
+        <br>
+        <input type="email" name="email" placeholder ="Enter your email...">
+        <br>
+
+        <label for="phone">Phone</label>
+        <br>
+        <input type="tel" name="phone" placeholder ="Enter your phone...">
+    </div>
+
+    <div class="address-box">
+        <h3>Shipping address</h3>
+
+        <label for="full-name">Full Name</label>
+        <br>
+        <input type="text" name="full-name" placeholder="Enter your Full name...">
+        <br>
+
+        <label for="address">Address</label>
+        <br>
+        <input type="text" name="address" placeholder="Enter your address...">
+        <br>
+
+        <label for="city">City</label>
+        <br>
+        <input type=" text" name="city" placeholder="Enter your city...">
+    </div>
+
+    <div>
+
+        <label for="country" id="country">Country</label>
+        <br>
+        <select name="country" >
+            <option value="Turkey">Turkey</option>
+            <option value="Germany">Germany</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+            <option value="UK">UK</option>
+        </select>
+    </div>
+
+    <div class="post-code">
+        <label for="post-code">Post Code</label>
+        <br>
+        <input  type="text" name="post-code" id="inp-postcode" placeholder="Enter your postal code...">
+    </div>
+
+    <div id="chkbox-cont">
+        
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <label for="checkbox">See this information next time</label>
+        
+    </div>
+    <input type="button" value="Continue" id="continue">
+    </div>
+</form>
+</body>
+</html>
