@@ -210,7 +210,6 @@ hr {
 #container-1 {
     grid-area: container-1;
     width: 420px;
-    background-color: yellow;
     position: relative;
     top: 10px;
     left: 180px;
