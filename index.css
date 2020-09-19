@@ -284,13 +284,10 @@ select {
         grid-template-areas:"product-box" "container-1";
         grid-template-rows: 400px auto;
         grid-template-columns: 600px;
-        background-color: blueviolet;
     }
     
     .product-box {
         grid-area: product-box;
-        background-color: cornflowerblue;
-        
         left: 20px;
     }
 
